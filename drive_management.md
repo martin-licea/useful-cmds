@@ -56,6 +56,7 @@ UUID=e7e5c123-fg76-5gxx-a87d-gt5fed9r768e /data           btrfs   defaults      
 
 ## rename btrfs label
 ```
+sudo btrfs filesystem label <mountpoint> <newlabel>
 ```
 
 ## list volume groups
